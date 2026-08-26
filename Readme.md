@@ -120,3 +120,8 @@ The backend exposes a fully RESTful API architecture. Requests and responses are
    npm run dev
    ```
 5. Open your browser and navigate to `http://localhost:5173`.
+
+## Live Deployments
+
+- **Frontend (Vercel):** [https://task-and-team-manage-git-a32b46-nimishsinkar2004-2279s-projects.vercel.app/](https://task-and-team-manage-git-a32b46-nimishsinkar2004-2279s-projects.vercel.app/)
+- **Backend API (Render):** [https://task-and-team-management.onrender.com/](https://task-and-team-management.onrender.com/)
