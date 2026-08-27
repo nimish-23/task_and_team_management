@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { Link, useNavigate, Navigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../store/authSlice';
 import api from '../services/api';
 import { toast } from 'sonner';
@@ -17,6 +17,9 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const { isAuthenticated } = useSelector((state) => state.auth);
+
+  if (isAuthenticated) return <Navigate to="/dashboard" replace />;
 
   const handleLogin = async (e) => {
     e.preventDefault();
