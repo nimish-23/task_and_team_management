@@ -30,7 +30,7 @@ const Dashboard = () => {
   const [taskToEdit, setTaskToEdit] = useState(null);
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('token') || sessionStorage.getItem('token');
     if (!token) {
       navigate('/login');
       return;
