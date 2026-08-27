@@ -28,7 +28,7 @@ api.interceptors.response.use(
     }
     
     if (status === 404) {
-      return Promise.reject("404 - Resource not found");
+      return Promise.reject(error.response.data?.message || "404 - Resource not found");
     }
 
     if (status >= 400 && status < 500) {
