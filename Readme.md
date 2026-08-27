@@ -123,5 +123,5 @@ The backend exposes a fully RESTful API architecture. Requests and responses are
 
 ## Live Deployments
 
-- **Frontend (Vercel):** [https://task-and-team-manage-git-a32b46-nimishsinkar2004-2279s-projects.vercel.app/](https://task-and-team-manage-git-a32b46-nimishsinkar2004-2279s-projects.vercel.app/)
+- **Frontend (Vercel):** [https://task-and-team-management-ecru.vercel.app](https://task-and-team-management-ecru.vercel.app/)
 - **Backend API (Render):** [https://task-and-team-management.onrender.com/](https://task-and-team-management.onrender.com/)
